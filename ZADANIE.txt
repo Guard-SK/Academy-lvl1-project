@@ -1,0 +1,8 @@
+zadanie lvl 1 - openlab s bootstrapom
+
+- sprav openlab.sk stranku s bootstrapom
+- daj vediet ci chapes zadanie
+- kazdy den napis co si robil alebo ak si nerobili tak ze kedy budes
+- spolu so statusom posli aj ukazku svojej prace
+
+V zasade co by si mal spravit, je https://openlab.sk stranka, Skus to spravit najskor tak, ze spravis kostru bez stylov - html, nasledne pridas css (bootstrap). Mal by si kazdy den pisat, co si spravil a ci s niecim potrebujes pomoct. Kazdy den ked derobis, tak by si mal aj pushnut zmeny na git. Nasledne ti budeme vediet spravit review, o kt. sa pobavime a ty by si mal zapracovat zmeny

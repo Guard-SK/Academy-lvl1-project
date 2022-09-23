@@ -1,0 +1,36 @@
+.classes-card {
+    color: #5b94d7;
+    background-color: rgba(221, 236, 251, 0.4);
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 8px;
+}
+.students-card {
+    color: #5cc19a;
+    background-color: rgba(156, 238, 204, 0.4);
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 8px;
+}
+.labmasters-card {
+    color: #dbca68;
+    background-color: rgba(238, 226, 156, 0.4);
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 8px;
+}
+.schools-card {
+    color: #b95e73;
+    background-color: rgba(238, 156, 156, 0.4);
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 8px;
+}
