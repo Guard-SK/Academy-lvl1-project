@@ -12,45 +12,88 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="container">
+    <header class="bg-white d-none d-lg-block justify-content-center align-items-center">
+        <div class="container d-flex justify-content-center align-items-center border-bottom">
             <div class="row">
-                <div class="col-lg-8 d-lg-block d-none">
-                    <p>Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
-                </div>
-                <div class="col-lg-4 d-lg-block d-none">
-                    <a>OPENLAB COMMUNITY</a>
-                </div>
+                <span class="col-auto me-5 lh-1 py-2">Ak máš záujem študovať spolu s nami, sme tu pre teba…</span>
+                <a href="https://discord.com/invite/Y6xrdTvjFn" class="col-auto discord-header-btn align-items-center discord-header-button btn btn-gray btn-sm rounded-pill">
+                    OPENLAB COMMUNITY
+                    <img src="assets/discord.svg">
+                </a>
             </div>
         </div>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <a href="index.html">
-                    <img src="assets/openlab-logo.svg">
-                </a>
-            </div>
-            <ul class="col-lg-5 d-lg-block d-none">
-                <li>
-                    <a href="index.html">Úvod</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white my-3">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+            <img src="assets/openlab-logo.svg">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Úvod</a>
                 </li>
-                <li>
-                    <a href="">Openlab</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">HybridLab</a></li>
+                        <li><a class="dropdown-item" href="#">GamesLab</a></li>
+                        <li><a class="dropdown-item" href="#">AppsLab</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="">Pre učiteľov</a>
-                </li>
-                <li>
-                    <a href="">Partneri</a>
-                </li>
-                <li>
-                    <a href="moderna-skola.html">Moderná škola</a>
-                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Pre učiteľov</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Partneri</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/moderna-skola.html">Moderná škola</a>
+                    </li>
             </ul>
+            <a class="col-auto d-none d-lg-block bg-white text-white">
+                <button class="btn btn-primary">Pridajte sa k nám</button>
+            </a>
+            </div>
         </div>
+    </nav>
     <div class="container">
         <h1>Nie je moderná škola <br> ako moderná škola</h1>
     </div>
+    <footer class="py-5 overflow-hidden">
+        <div class="container">
+            <div class="row align-items-end text-secondary">
+                <div class="col-sm-6 col-lg-4 mb-3 mb-sm-0">
+                    <a href="/">
+                        <img src="assets/openlab-logo.svg" alt="openlab logo">
+                    </a>
+                    <p>© 2022 Všetky práva vyhradené <strong>OPENLAB, o.z.,</strong></p>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                    <p>IČO: 50764675</p>
+                    <p>Viedenská cesta 257, 805 01 Bratislava</p>
+                </div>
+                <div class="col-sm-6 col-lg-2 mb-3 mb-sm-0">
+                    <p>info@openlab.sk</p>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex socials">
+                    <a href="https://www.facebook.com/OpenLab.sk/">
+                        <img src="assets/facebook.svg" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/company/openlab-sk/?trk=public_profile_topcard_current_company&originalSubdomain=sk">
+                        <img src="assets/linkedin.svg" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/openlab.sk/">
+                        <img src="assets/instagram.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
