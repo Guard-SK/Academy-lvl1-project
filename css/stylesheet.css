@@ -3,7 +3,18 @@ body {
 }
 * {
     letter-spacing: 1px; 
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'SF Pro Display', sans-serif !important;
+}
+.btn {
+    font-size: 14px;
+    padding: 14px 18px;
+    border-radius: 6px;
+}
+.btn-primary {
+    background-color: #3597ff !important;
+}
+.text-gray {
+    color: #566b8d;
 }
 
 /* header */
@@ -16,6 +27,43 @@ header .discord-header-btn {
     font-size: 12px;
     padding: 6px 10px;
 }
+
+/* navbar */
+nav a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a232f !important;
+    padding: 8px 0px 8px 0px;
+}
+
+nav a:hover { 
+    color: #3597ff !important; 
+}
+
+.dropdown .dropdown-menu {
+    margin: 0px;
+    border-radius: 5px 5px 5px 5px ;  
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    margin-left: 48px;
+}
+
+/* main visual */
+
+#mainVisual {
+    background-color: #3597ff !important;
+    font-weight: 300!important;
+}
+
 
 .card-vision {
     width: 233px;
