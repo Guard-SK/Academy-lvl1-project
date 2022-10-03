@@ -21,14 +21,29 @@ body {
     border-color: rgba(152, 156, 162, 0.15);
     color: #989ca2;
 }
-.fs-6 {
+.fs-8 {
     font-size: 1.125rem !important;
 }
   
 .fs-7 {
     font-size: 0.875rem;
 }
-
+.fw-light {
+    font-weight: 300 !important;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+.bg-primary-lighter {
+    background-color: #f3f9ff;
+}
+.btn-lg {
+    padding: 18px 50px;
+    font-weight: bold;
+}
 
 /* header */
 header .container { 
@@ -154,11 +169,33 @@ nav a:hover {
 
 
 /* labs */
-
 #labs a:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
     border-radius: 5px;
 }
+
+
+/* schools */
+.letter-p {
+    width: 213px;
+    right: 0;
+    z-index: 0;
+    bottom: -260px;
+}
+
+.letter-p img {
+width: 436px;
+}
+
+
+/* want */
+#want .heading {
+    top: -48px;
+    font-size: 62px;
+    color: rgba(209, 220, 231, 0.3);
+    z-index: 0;
+}
+
 
 /* responsivness */
 
@@ -169,5 +206,12 @@ nav a:hover {
     }
     #mainVisual .shape img {
       width: 241px;
+    }
+    .letter-p img {
+        width: 218px;
+    }
+    .letter-p {
+        width: 107px;
+        bottom: -150px;
     }
 }
