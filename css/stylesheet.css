@@ -85,6 +85,16 @@ nav a:hover {
 .navbar-nav {
     margin-left: 48px;
 }
+nav .offcanvas {
+    width: 280px;
+}
+nav .offcanvas-body {
+    padding: 0;
+    margin: 0;
+}
+nav .offcanvas .navbar-nav {
+    margin: 0;
+}
 
 
 /* main visual */
