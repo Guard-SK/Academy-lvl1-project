@@ -1,0 +1,16 @@
+@media (max-width: 1199.98px) {
+    #mainVisual .shape {
+      width: 120px;
+      bottom: -120px;
+    }
+    #mainVisual .shape img {
+      width: 241px;
+    }
+    .letter-p img {
+        width: 218px;
+    }
+    .letter-p {
+        width: 107px;
+        bottom: -150px;
+    }
+}

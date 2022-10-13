@@ -1,0 +1,50 @@
+body {
+    margin-bottom: 0px;
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+* {
+    letter-spacing: 1px; 
+    font-family: 'SF Pro Display', sans-serif !important;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 14px 18px;
+    border-radius: 6px;
+}
+.btn-primary {
+    background-color: #3597ff !important;
+}
+.text-gray {
+    color: #566b8d;
+}
+.btn-gray {
+    background-color: rgba(152, 156, 162, 0.15);
+    border-color: rgba(152, 156, 162, 0.15);
+    color: #989ca2;
+}
+.fs-8 {
+    font-size: 1.125rem !important;
+}
+  
+.fs-7 {
+    font-size: 0.875rem;
+}
+.fw-light {
+    font-weight: 300 !important;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+.bg-primary-lighter {
+    background-color: #f3f9ff;
+}
+.btn-lg {
+    padding: 18px 50px;
+    font-weight: bold;
+}

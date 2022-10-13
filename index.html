@@ -14,7 +14,9 @@
     <link href="https://v1.fontapi.ir/css/SFProDisplay" rel="stylesheet">
     <script src="js/main.js"></script>
     <link rel="icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/responsiveness.css">
 </head>
 <body>
     <header class="bg-white d-none d-lg-block justify-content-center align-items-center">
@@ -375,27 +377,74 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item labmastri-carousel position-relative justify-content-start active">
-                            <div class="labmastri card text-white p-3">
-                                <p class="fs-6 text-border">Labmastri <span class="fw-bold">v OpenLabe</span></p>
-                                <h3 class="card-title my-4">V OpenLabe sa okrem technologických vedomostí a zručností snažíme rozvíjať aj iné dôležité parametre kvalitných ľudí.</h3>
-                                <p></p>
-                                <p class="mb-xl-5">Ako sú zodpovednosť, spoľahlivosť, samostatnosť, ale aj tímovosť a vzájomnú komunikáciu. Prijímame výzvy najmä voči svojím vlastným ja.</p>
-                                <p class="mb-0">Roman Popper, AppsLab</p>
-                                <p class="mb-0">Siemens Healthineers</p>
+                        <div class="carousel-item active">
+                            <div class="labmastri-carousel position-relative justify-content-start active">
+                                <div class="d-md-flex justify-content-md-end position-relative slide">
+                                    <div class="labmastri card text-white p-3">
+                                        <p class="fs-6 text-border">Labmastri <span class="fw-bold">v OpenLabe</span></p>
+                                        <h3 class="card-title my-4">V OpenLabe sa okrem technologických vedomostí a zručností snažíme rozvíjať aj iné dôležité parametre kvalitných ľudí.</h3>
+                                        <p></p>
+                                        <p class="mb-xl-5">Ako sú zodpovednosť, spoľahlivosť, samostatnosť, ale aj tímovosť a vzájomnú komunikáciu. Prijímame výzvy najmä voči svojím vlastným ja.</p>
+                                        <p class="mb-0">Roman Popper, AppsLab</p>
+                                        <p class="mb-0">Siemens Healthineers</p>
+                                    </div>
+                                    <figure class="mb-0 d-md-block d-none overflow-hidden">
+                                        <img src="assets/join-labmastri.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
                             </div>
-                            <figure class="labmastri-img mb-0 d-md-block d-none overflow-hidden position-absolute z-index-1">
-                                <img src="assets/join-labmastri.png" alt="" class="img-fluid">
-                            </figure>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/join-schools.png" class="d-block w-100" alt="slider">
+                            <div class="firmy-carousel position-relative justify-content-start">
+                                <div class="d-md-flex justify-content-md-end position-relative slide">
+                                    <div class="firmy card text-white p-3">
+                                        <p class="fs-6 text-border">Firmy <span class="fw-bold">v OpenLabe</span></p>
+                                        <h3 class="card-title my-4">Technológie sa neustále menia. Preto to “čo” sa študenti učia je druhoradé.</h3>
+                                        <p></p>
+                                        <p class="mb-xl-5">V prvom rade riešime “prečo” a “ako” sa študenti vzdelávajú. Inými slovami, OpenLab je o prístupe. Ten keď si študenti osvoja, dokážu ho aplikovať na čokoľvek po zvyšok života.</p>
+                                        <img class="z-index-1" src="assets/signature1.png" alt="">
+                                        <p class="mb-0">Grigor Ayrumyan</p>
+                                        <p class="mb-0">CEO at WEZEO</p>
+                                    </div>
+                                    <figure class="mb-0 d-md-block d-none overflow-hidden">
+                                        <img src="assets/firm.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/join-students.png" class="d-block w-100" alt="slider">
+                            <div class="skoly-carousel position-relative justify-content-start">
+                                <div class="d-md-flex justify-content-md-end position-relative slide">
+                                    <div class="skoly card text-white p-3">
+                                        <p class="fs-6 text-border">Školy <span class="fw-bold">v OpenLabe</span></p>
+                                        <h3 class="card-title my-4">Vďaka OpenLabu máme v škole špičkových odborníkov zo žilinského Siemens Healthineers.</h3>
+                                        <p></p>
+                                        <p class="mb-xl-5">Venujú sa vybraným 20-tim študentom, ktorí pracujú v tímoch na čiastokových úlohách a v spolupráci s týmito odborníkmi sa učia vyvíjať mobilné aplikácie. Vďaka ich vedeniu, založenom na moderných metódach overených v praxi, žiaci spoločne dosahujú výborné výsledky.</p>
+                                        <p class="mb-0">Milan Válek</p>
+                                        <p class="mb-0">Riaditeľ SPŠ IT, Kysucké Nové Mesto</p>
+                                    </div>
+                                    <figure class="mb-0 d-md-block d-none overflow-hidden">
+                                        <img src="assets/join-schools.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/join-students.png" class="d-block w-100" alt="slider">
+                            <div class="studenti-carousel position-relative justify-content-start">
+                                <div class="d-md-flex justify-content-md-end position-relative slide">
+                                    <div class="studenti card text-white p-3">
+                                        <p class="fs-6 text-border">Študenti <span class="fw-bold">v OpenLabe</span></p>
+                                        <h3 class="card-title my-4">GamesLab mi otvoril brány do sveta vývoja softvéru, technológií, ale aj osobného rozvoja.</h3>
+                                        <p></p>
+                                        <p class="mb-xl-5">Za podpory skvelých LabMastrov som neustále motivovaný pracovať na sebe, či už po technologickej alebo soft-skills stránke.</p>
+                                        <p class="mb-0">Viktor Nagy</p>
+                                        <p class="mb-0">GamesLab (SPŠE Hálova 16, Bratislava)</p>
+                                    </div>
+                                    <figure class="mb-0 d-md-block d-none overflow-hidden">
+                                        <img src="assets/join-students.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
