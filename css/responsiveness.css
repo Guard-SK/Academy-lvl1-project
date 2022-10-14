@@ -14,3 +14,13 @@
         bottom: -150px;
     }
 }
+@media (max-width: 992px) {
+  #join .labmastri {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #join .labmastri {
+    width: 100%;
+  }
+}

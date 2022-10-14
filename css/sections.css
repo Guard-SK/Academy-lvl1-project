@@ -168,17 +168,25 @@ width: 436px;
 }
 #join .card {
     height: 500px;
-    width: 100%;
     display: flex;
+    z-index: 1;
+    margin-bottom: 100px;
+    width: 40%;
 }
-
+#join .carousel-item img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+}
+#join figure {
+    width: 50%;
+    height: 50%;
+}
 #join .labmastri {
     background-color: #A54FA2;
-    z-index: 1;
 }
-#join .labmastri img {
-    display: inline;
-}
+
 
 #join .firmy {
     background-color: #3597FF;
@@ -187,10 +195,7 @@ width: 436px;
     margin-bottom: -20px;
     width: 179px;
     height: auto;
-}
-#join figure {
-    width: 50%;
-    height: 50%;
+    position: relative;
 }
 
 #join .skoly {
