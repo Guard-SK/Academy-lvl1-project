@@ -369,12 +369,12 @@
                         </div>
                     </div>
                 </div>
-                <div id="carouselJoin" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselJoin" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselJoin" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselJoin" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselJoin" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <div id="carouselJoin" class="carousel slide position-relative" data-bs-ride="true">
+                    <div class="dot-carousel-indicator position-absolute">
+                        <button type="button" data-bs-target="#carouselJoin" data-bs-slide-to="0" class="dot active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselJoin" data-bs-slide-to="1" class="dot" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselJoin" data-bs-slide-to="2" class="dot" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselJoin" data-bs-slide-to="3" class="dot" aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -451,8 +451,86 @@
             </div>
         </div>
     </section>
-    <section id="studentProjects">
+    <section id="studentProjects" class="py-4 py-md-5">
+        <div class="container py-4 py-md-5 border-bottom">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="h1 fw-light mb-5">Pozrite si <span class="fw-bold">študentské projekty</span></h2>
+                    <p class="text-gray mb-5 px-5">Stredoškoláci v OpenLaboch pracujú na reálnych projektoch v spolupráci s firmami pričom získavajú praktické zručnosti a osvojujú si prístup, ktorým neskôr posunú svet technológií a celú spoločnosť vpred.</p>
+                    <p class="fw-ligt fs-6 mb-5 text-start">Projekty študentov v <span class="fw-bold">OpenLabe</span></p>
+                </div>
+            </div>
+            <div class="row position-relative">
+                <div id="carouselStudentProjects" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active justify-content-between" data-interval="10000">
+                            <div class="col-6">
+                                <h2 class="fw-light mb-5">Študentský projekt <br>Mapovanie z HybridLabu</h2>
+                                <p class="text-gray mb-5">Mapovanie je hybridná aplikácia, ktorá umožní ľuďom so spoločnými záľubami deliť sa o svoje obľúbené miesta a ukladať ich do komunitnej mapy. Aplikáciu tak môžu využívať ľudia z rôznych komunít. Užívateľ sa jednoducho pridá do skupiny, ktorá ho zaujíma, a následne môže vidieť už “zmapované” miesta alebo pridávať nové. Prehľad príspevkov a skupín mu zobrazuje dostupná mapa. Do aplikácie sa užívateľ vie prihlásiť cez SSO, t.j. prihlásenie pomocou služby tretej strany, napr. Facebook alebo Apple ID účet. Na vývoj študenti použili technológie - Ionic, OctoberCMS a Vue. Aktuálne je aplikácia v MVP verzii.</p>
+                                <div class="mb-5">
+                                    <button class="next-previous-carousel-indicator mt-5" type="button" data-bs-target="#carouselStudentProjects" data-bs-slide="prev">
+                                        <img src="assets/arrow-left-carousel.png" alt="">
+                                    </button>
+                                    <button class="next-previous-carousel-indicator" type="button" data-bs-target="#carouselStudentProjects" data-bs-slide="next">
+                                        <img src="assets/arrow-right-carousel.png" alt="">
+                                    </button>
+                                </div>
+                                
+                            </div>
+                            <div class="col-6 position-relative">
+                                <img src="assets/maxresdefault.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item justify-content-between" data-interval="10000">
+                            <div class="col-6">
+                                <h2 class="fw-light mb-5">Študentský projekt <br>RealTopia z GamesLabu</h2>
+                                <p class="text-gray mb-5">Mapovanie je hybridná aplikácia, ktorá umožní ľuďom so spoločnými záľubami deliť sa o svoje obľúbené miesta a ukladať ich do komunitnej mapy. Aplikáciu tak môžu využívať ľudia z rôznych komunít. Užívateľ sa jednoducho pridá do skupiny, ktorá ho zaujíma, a následne môže vidieť už “zmapované” miesta alebo pridávať nové. Prehľad príspevkov a skupín mu zobrazuje dostupná mapa. Do aplikácie sa užívateľ vie prihlásiť cez SSO, t.j. prihlásenie pomocou služby tretej strany, napr. Facebook alebo Apple ID účet. Na vývoj študenti použili technológie - Ionic, OctoberCMS a Vue. Aktuálne je aplikácia v MVP verzii.</p>
+                                <div class="mb-5">
+                                    <button class="next-previous-carousel-indicator mt-5" type="button" data-bs-target="#carouselStudentProjects" data-bs-slide="prev">
+                                        <img src="assets/arrow-left-carousel.png" alt="">
+                                    </button>
+                                    <button class="next-previous-carousel-indicator" type="button" data-bs-target="#carouselStudentProjects" data-bs-slide="next">
+                                        <img src="assets/arrow-right-carousel.png" alt="">
+                                    </button>
+                                </div>
+                                
+                            </div>
+                            <div class="col-6 position-relative">
+                                <img src="assets/student-project-realtopia.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item justify-content-between" data-interval="10000">
+                            <div class="col-6">
+                                <h2 class="fw-light mb-5">Študentský projekt <br>Renmo z AppsLabu</h2>
+                                <p class="text-gray mb-5"><b>Renmo </b>je softvérová aplikácia, ktorá slúži ako rezervačný systém. Užívateľ si vie prostredníctvom systému ľahko a rýchlo zarezervovať rôzne služby, napr. objednať sa ku kaderníkovi. V aplikácii si takisto firmy vedia nastaviť detailné informácie o sebe a ponuku svojich služieb. Aplikácia vie uľahčiť prácu aj zamestnancom, ktorí vidia aktívne rezervácie pre daný deň ale aj nasledujúce. Na vývoj študenti použili technológie: MySQL, SpringBoot a Angular</p>
+                                <div class="mb-5">
+                                    <button class="next-previous-carousel-indicator mt-5" type="button" data-bs-target="#carouselStudentProjects" data-bs-slide="prev">
+                                        <img src="assets/arrow-left-carousel.png" alt="">
+                                    </button>
+                                    <button class="next-previous-carousel-indicator" type="button" data-bs-target="#carouselStudentProjects" data-bs-slide="next">
+                                        <img src="assets/arrow-right-carousel.png" alt="">
+                                    </button>
+                                </div>
+                                
+                            </div>
+                            <div class="col-6 position-relative">
+                                <img src="assets/maxresdefault (1).jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dot-carousel-indicator position-absolute">
+                    <button type="button" data-bs-target="#carouselStudentProjects" data-bs-slide-to="0" class="dot active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselStudentProjects" data-bs-slide-to="1" class="dot" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselStudentProjects" data-bs-slide-to="2" class="dot" aria-label="Slide 3"></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
 
+                </div>
+            </div>
+        </div>
     </section>
     <section id="special" class="justify-content-center py-4 py-md-5">
         <div class="container py-4 py-md-5 border-bottom">

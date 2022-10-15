@@ -48,3 +48,37 @@ body::-webkit-scrollbar {
     padding: 18px 50px;
     font-weight: bold;
 }
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #d7eaff;
+    border-radius: 50%;
+    display: inline-block;
+    border: 0;
+    opacity: 0.5;
+}
+.dot:hover {
+    background-color: #3597ff;
+    opacity: 1;
+}
+.dot:focus {
+    background-color: #3597ff;
+    opacity: 1;
+}
+.dot-carousel-indicator {
+    z-index: 10;
+    align-self: center;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+}
+.next-previous-carousel-indicator {
+    z-index: 1;
+    align-self: start;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #b4c9e3;
+}

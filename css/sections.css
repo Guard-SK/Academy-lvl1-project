@@ -186,8 +186,6 @@ width: 436px;
 #join .labmastri {
     background-color: #A54FA2;
 }
-
-
 #join .firmy {
     background-color: #3597FF;
 }
@@ -231,10 +229,12 @@ footer {
     font-weight: 600;
 }
 
+/* cookies */
 #cookie {
     position:fixed;
     bottom:0;
     left:1;
     right:0; 
     border-radius: 50%;
+    z-index: 100;
 }
