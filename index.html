@@ -820,12 +820,11 @@
                         <span class="fw-bold">čerstvé informácie o živote v OpenLabe.</span>
                     </h5>
                 </div>
-                <div class="col-6">
+                <div class="col-md">
                     <div class="form">
-                        <form>
-                            <label for="emailForm">Enter your mail: </label>
-                            <input type="text" name="emailForm" id="emailForm" required>
-                            <button type="submit">Submit form</button>
+                        <form class="position-relative">
+                            <input type="text" name="emailForm" id="emailForm" placeholder="Sem napíš tvoj e-mail" class="border-0" required>
+                            <img src="assets/send.png" alt="" class="position-absolute">
                         </form>
                     </div>
                 </div>
@@ -833,9 +832,9 @@
         </div>
     </section>
     <section id="cookie">
-        <button class="btn-primary p-3 m-5 align-self-end d-flex border-0">
-            <img src="assets/cookies.png" alt="">
-        </button>
+        <a class="cookie-btn align-self-end border-0">
+            <img src="assets/cookies.png" alt="position-absolute" class="">
+        </a>
     </section>
     <footer class="py-5 overflow-hidden">
         <div class="container">

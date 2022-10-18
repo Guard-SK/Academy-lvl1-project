@@ -233,6 +233,25 @@ width: 436px;
 #newsletter .bg-newsletter {
     background-color: #d7eaff;
 }
+#newsletter input {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+#newsletter form {
+    margin: 0;
+}
+#newsletter img {
+    right: 20px;
+    top: 25%;
+    
+}
 
 
 /* footer */
@@ -242,11 +261,13 @@ footer {
 }
 
 /* cookies */
-#cookie {
+#cookie .cookie-btn {
     position:fixed;
     bottom:0;
-    left:1;
     right:0; 
+    margin: 38px;
     border-radius: 50%;
+    padding: 10px !important;
     z-index: 100;
+    background-color: #3597ff;
 }
