@@ -1,18 +1,31 @@
 @media (max-width: 1199.98px) {
-    #mainVisual .shape {
-      width: 120px;
-      bottom: -120px;
-    }
-    #mainVisual .shape img {
-      width: 241px;
-    }
-    .letter-p img {
-        width: 218px;
-    }
-    .letter-p {
-        width: 107px;
-        bottom: -150px;
-    }
+  #mainVisual .shape {
+    width: 120px;
+    bottom: -120px;
+  }
+  #mainVisual .shape img {
+    width: 241px;
+  }
+  .letter-p img {
+      width: 218px;
+  }
+  .letter-p {
+      width: 107px;
+      bottom: -150px;
+  }
+  #join .shape {
+    width: 120px;
+    bottom: -120px;
+  }
+  #join .shape img {
+    width: 241px;
+  }
+  #special .shape {
+    width: 217px;
+    height: 217px;
+    top: 10px;
+    left: -110px;
+  }
 }
 @media (max-width: 992px) {
   #join .labmastri {

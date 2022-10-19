@@ -203,6 +203,15 @@ width: 436px;
 #join .studenti {
     background-color: #F9A94A;
 }
+#join .shape {
+    width: 275px;
+    right: 0;
+    bottom: -242px;
+    z-index: -1;
+}
+#join .shape img {
+    width: 482px;
+}
 
 
 /* studentProjects */
@@ -213,6 +222,20 @@ width: 436px;
     bottom: 0;
     display: block;
     margin: auto; 
+}
+
+
+/* special */
+#special .shape {
+    width: 435px;
+    height: 435px;
+    left: -221px;
+    top: -190px;
+    z-index: -1;
+}
+#special .shape img {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -258,6 +281,10 @@ width: 436px;
 footer {
     font-size: 12px;
     font-weight: 600;
+}
+footer .rec {
+    left: 100%;
+    top: calc(100% - 30px);
 }
 
 /* cookies */
